@@ -24,6 +24,12 @@ Ionic 8 (React) + Capacitor 6 で構築
 
 ---
 
+## Androidへのインストール
+
+[Releases](https://github.com/mokouliszt/saize-list/releases)から最新のapkファイルをダウンロードしてください。
+
+---
+
 ## セットアップ
 
 ```bash
