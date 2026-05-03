@@ -1,7 +1,8 @@
 # サイゼリスト
 
-非公式サイゼリヤメニュー管理アプリ  
+非公式サイゼリヤメニュー管理アプリ(Android向け)
 Ionic 8 (React) + Capacitor 6 で構築
+おそらくiOSでも問題なく動きますが作者がMacを持っていません...
 
 <img width="339" height="500" alt="Image" src="https://github.com/user-attachments/assets/6abd66f9-645b-40ee-85dd-07f3faefaa64" />
 
