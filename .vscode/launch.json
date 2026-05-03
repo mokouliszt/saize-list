@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ ブラウザで起動",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:8100",
+      "webRoot": "${workspaceFolder}/src",
+      "preLaunchTask": "ionic-serve",
+      "sourceMaps": true
+    }
+  ]
+}

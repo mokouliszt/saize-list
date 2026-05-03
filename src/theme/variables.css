@@ -1,0 +1,55 @@
+/* サイゼリスト カラーテーマ */
+:root {
+  --saize-green:      #1B8B3B;
+  --saize-green-light:#4CAF6E;
+  --saize-green-bg:   #D4EDDA;
+  --saize-red:        #C8102E;
+  --saize-red-bg:     #FCE4E8;
+  --saize-bg:         #F5F5F0;
+
+  /* ── Ionic カラー変数への反映 ── */
+  --ion-color-primary:             var(--saize-green);
+  --ion-color-primary-rgb:         27, 139, 59;
+  --ion-color-primary-contrast:    #ffffff;
+  --ion-color-primary-contrast-rgb:255, 255, 255;
+  --ion-color-primary-shade:       #177533;
+  --ion-color-primary-tint:        #329750;
+
+  --ion-color-secondary:             var(--saize-red);
+  --ion-color-secondary-rgb:         200, 16, 46;
+  --ion-color-secondary-contrast:    #ffffff;
+  --ion-color-secondary-contrast-rgb:255, 255, 255;
+  --ion-color-secondary-shade:       #b00e28;
+  --ion-color-secondary-tint:        #ce2843;
+
+  --ion-background-color:          var(--saize-bg);
+  --ion-background-color-rgb:      245, 245, 240;
+
+  --ion-toolbar-background:        var(--saize-green);
+  --ion-toolbar-color:             #ffffff;
+
+  --ion-item-background:           #ffffff;
+  --ion-card-background:           #ffffff;
+}
+
+/* ── グローバルスタイル ── */
+ion-content {
+  --background: var(--saize-bg);
+}
+
+ion-list {
+  background: transparent;
+}
+
+ion-searchbar {
+  --border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+}
+
+ion-chip {
+  font-size: 12px;
+}
+
+/* スクロールバー非表示 */
+::-webkit-scrollbar { display: none; }

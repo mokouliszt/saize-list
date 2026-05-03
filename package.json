@@ -1,0 +1,38 @@
+{
+  "name": "saize-list",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "ionic serve --no-open",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor-community/sqlite": "^6.0.2",
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/clipboard": "^6.0.0",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/haptics": "^6.0.0",
+    "@capacitor/preferences": "^6.0.0",
+    "@ionic/react": "^8.0.0",
+    "@ionic/react-router": "^8.0.0",
+    "axios": "^1.7.0",
+    "idb-keyval": "^6.2.1",
+    "ionicons": "^7.4.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^5.3.4",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2",
+    "@ionic/cli": "^7.2.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0"
+  }
+}

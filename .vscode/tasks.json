@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ionic-serve",
+      "type": "shell",
+      "command": "npx ionic serve --no-open",
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": { "regexp": "." },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Starting",
+          "endsPattern": "localhost"
+        }
+      }
+    },
+    {
+      "label": "▶ Android (ライブリロード)",
+      "type": "shell",
+      "command": "ionic capacitor run android --livereload --external",
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "new" }
+    },
+    {
+      "label": "⚙ Android ビルド & 同期",
+      "type": "shell",
+      "command": "ionic build && npx cap sync android",
+      "group": "build"
+    }
+  ]
+}
